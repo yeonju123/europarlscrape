@@ -72,13 +72,13 @@ time wikipron es \
     --cut-off-date="${CUTOFFDATE}" \
     --output=es.tsv
 
-#echo "Estonian..."
-#time wikipron et \
-#    --casefold \
-#    --no-stress \
-#    --no-syllable-boundaries \
-#    --cut-off-date="${CUTOFFDATE}" \
-#    --output=et.tsv
+echo "Estonian..."
+time wikipron et \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=et.tsv
 
 echo "Finnish..."
 time wikipron "fi" \
@@ -179,13 +179,13 @@ time wikipron ro \
     --cut-off-date="${CUTOFFDATE}" \
     --output=ro.tsv
 
-#echo "Slovak..."
-#time wikipron sk \
-#    --casefold \
-#    --no-stress \
-#    --no-syllable-boundaries \
-#    --cut-off-date="${CUTOFFDATE}" \
-#    --output=sk.tsv
+echo "Slovak..."
+time wikipron sk \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=sk.tsv
 
 echo "Slovene..."
 time wikipron sl \
